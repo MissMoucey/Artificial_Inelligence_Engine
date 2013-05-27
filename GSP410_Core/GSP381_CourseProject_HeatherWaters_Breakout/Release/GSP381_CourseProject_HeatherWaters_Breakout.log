@@ -1,0 +1,119 @@
+﻿Build started 10/22/2012 2:04:53 PM.
+     1>Project "C:\Users\Heather\Desktop\GSP381_CourseProject_HeatherWaters_MyGame\GSP381_CourseProject_HeatherWaters_Breakout\GSP381_CourseProject_HeatherWaters_Breakout.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Heather\Desktop\GSP381_CourseProject_HeatherWaters_MyGame\Release\".
+       InitializeBuildStatus:
+         Creating "Release\GSP381_CourseProject_HeatherWaters_Breakout.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 2dSurface.cpp Credits.cpp GameOverMenu.cpp GirPlayer.cpp Gun.cpp MainMenu.cpp Camera.cpp DirectShow.cpp dsutil.cpp dxMgr.cpp dxText.cpp dxutil.cpp FrameTimer.cpp GameMain.cpp InputManager.cpp LightManager.cpp Model.cpp optionsMenu.cpp PaddleController.cpp PathFinding.cpp Piggies.cpp Room.cpp SoundManager.cpp WhenPigsAttackGame.cpp winmain.cpp
+         2dSurface.cpp
+         Credits.cpp
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+         GameOverMenu.cpp
+     1>c:\users\heather\desktop\gsp381_courseproject_heatherwaters_mygame\gsp381_courseproject_heatherwaters_breakout\SoundManager.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+         GirPlayer.cpp
+     1>GirPlayer.cpp(58): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 GirPlayer.cpp(42) : definition of 'i' ignored
+                 c:\users\heather\desktop\gsp381_courseproject_heatherwaters_mygame\gsp381_courseproject_heatherwaters_breakout\GirPlayer.h(46) : definition of 'GirPlayer::i' used
+     1>GirPlayer.cpp(103): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>GirPlayer.cpp(106): warning C4305: '+=' : truncation from 'double' to 'float'
+         Gun.cpp
+         MainMenu.cpp
+     1>c:\users\heather\desktop\gsp381_courseproject_heatherwaters_mygame\gsp381_courseproject_heatherwaters_breakout\SoundManager.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+         Camera.cpp
+         DirectShow.cpp
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+         dsutil.cpp
+         dxMgr.cpp
+         dxText.cpp
+         dxutil.cpp
+     1>dxutil.cpp(60): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(276) : see declaration of 'wcscat'
+     1>dxutil.cpp(112): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(306) : see declaration of 'wcsncpy'
+     1>dxutil.cpp(136): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(306) : see declaration of 'wcsncpy'
+     1>dxutil.cpp(160): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(306) : see declaration of 'wcsncpy'
+     1>dxutil.cpp(603): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(306) : see declaration of 'wcsncpy'
+     1>dxutil.cpp(653): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(306) : see declaration of 'wcsncpy'
+     1>dxutil.cpp(712): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(707) : see declaration of '_snwprintf'
+     1>dxutil.cpp(730): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(306) : see declaration of 'wcsncpy'
+     1>dxutil.cpp(745): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>dxutil.cpp(760): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>dxutil.cpp(769): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>dxutil.cpp(781): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(283) : see declaration of 'wcscpy'
+     1>dxutil.cpp(868): warning C4996: 'swscanf': This function or variable may be unsafe. Consider using swscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(797) : see declaration of 'swscanf'
+     1>dxutil.cpp(905): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h(707) : see declaration of '_snwprintf'
+         FrameTimer.cpp
+         GameMain.cpp
+     1>c:\users\heather\desktop\gsp381_courseproject_heatherwaters_mygame\gsp381_courseproject_heatherwaters_breakout\SoundManager.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+         InputManager.cpp
+         LightManager.cpp
+         Model.cpp
+         optionsMenu.cpp
+     1>c:\users\heather\desktop\gsp381_courseproject_heatherwaters_mygame\gsp381_courseproject_heatherwaters_breakout\SoundManager.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+         PaddleController.cpp
+         PathFinding.cpp
+     1>PathFinding.cpp(37): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>PathFinding.cpp(38): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>PathFinding.cpp(42): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>PathFinding.cpp(43): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>PathFinding.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>PathFinding.cpp(98): warning C4018: '<' : signed/unsigned mismatch
+     1>PathFinding.cpp(110): warning C4018: '<' : signed/unsigned mismatch
+     1>PathFinding.cpp(148): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>PathFinding.cpp(148): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>PathFinding.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PathFinding.cpp(167): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PathFinding.cpp(169): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PathFinding.cpp(171): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>PathFinding.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+         Compiling...
+         Piggies.cpp
+     1>Piggies.cpp(92): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Piggies.cpp(94): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Piggies.cpp(95): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+         Room.cpp
+         SoundManager.cpp
+     1>c:\users\heather\desktop\gsp381_courseproject_heatherwaters_mygame\gsp381_courseproject_heatherwaters_breakout\SoundManager.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+         WhenPigsAttackGame.cpp
+     1>c:\users\heather\desktop\gsp381_courseproject_heatherwaters_mygame\gsp381_courseproject_heatherwaters_breakout\SoundManager.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+         winmain.cpp
+     1>Done Building Project "C:\Users\Heather\Desktop\GSP381_CourseProject_HeatherWaters_MyGame\GSP381_CourseProject_HeatherWaters_Breakout\GSP381_CourseProject_HeatherWaters_Breakout.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:27.21
