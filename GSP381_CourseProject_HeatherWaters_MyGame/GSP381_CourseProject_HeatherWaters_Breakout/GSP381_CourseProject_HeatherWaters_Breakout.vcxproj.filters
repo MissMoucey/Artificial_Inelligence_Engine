@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2dSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dxMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dxText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaddleController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="optionsMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhenPigsAttackGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GirPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piggies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinematic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2dSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaddleController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="optionsMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WhenPigsAttackGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GirPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Piggies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinematic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menubackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MenuButton_Quit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MenuButton_StartGame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="exith.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="newgame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="newgameh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="options.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="optionsh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="credits.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="creditsh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fullscreenoff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fullscreenoffh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fullscreenon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fullscreenonh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="optionsBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="GearFight.mp3" />
+    <None Include="OneBigVideoGame.mp3" />
+    <None Include="menuBackground600.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="WhenPigsAttackIntro.wmv" />
+    <None Include="CarnivalNightmares.mp3" />
+    <None Include="piggy.X" />
+    <None Include="gameOverGir.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="giveUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="giveUph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tryAgain.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tryAgainh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Ghosts.mp3" />
+    <None Include="ball.X" />
+  </ItemGroup>
+</Project>
